@@ -59,8 +59,8 @@ app.get('/twitter', (req, res) => {
 
 app.get('/instagram', (req, res) => {
     res.send(`
-        <h1>Twitter API Endpoint</h1>
-        <p>Follow us on <a href="https://www.instagram.com/i.am.sankalp.23/">Twitter</a></p>
+        <h1>Instagram API Endpoint</h1>
+        <p>Follow us on <a href="https://www.instagram.com/i.am.sankalp.23/">Instagram</a></p>
     `);
 });
 
