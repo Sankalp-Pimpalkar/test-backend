@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000
 console.log(process.env.PORT)
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Available routes are: /twitter and /login')
 })
 
 app.get('/twitter', (req,res) => {
